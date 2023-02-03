@@ -1,0 +1,22 @@
+.tob-bar {
+  .container {
+    ul {
+      width: 86.25rem;
+      list-style: none;
+      display: inline-flex;
+      gap: 28px;
+      font-size: 18px;
+      padding: 0;
+      li a {
+        color: #6a6a6a;
+        text-decoration: none;
+
+        &:hover {
+          color: #474747;
+        }
+      }
+
+    }
+  }
+
+}

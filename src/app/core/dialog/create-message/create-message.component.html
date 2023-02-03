@@ -1,0 +1,32 @@
+<div class="message-section">
+  <h1 class="dialog-title" mat-dialog-title>Create Message</h1>
+  <div class="dialog-content" mat-dialog-content>
+    <mat-icon mat-dialog-close>close</mat-icon>
+    <form [formGroup]="createMessageForm">
+      <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input formControlName="name" matInput placeholder="Name" />
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Message</mat-label>
+        <textarea
+          formControlName="message"
+          rows="5"
+          matInput
+          placeholder="Message"
+        ></textarea>
+      </mat-form-field>
+    </form>
+  </div>
+  <div class="actions" mat-dialog-actions>
+    <button
+      class="btn"
+      (click)="createMessageAction()"
+      mat-button
+      mat-dialog-close
+    >
+      Create Message
+    </button>
+  </div>
+</div>

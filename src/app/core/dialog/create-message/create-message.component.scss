@@ -1,0 +1,30 @@
+.message-section {
+  padding: 1.5rem;
+  mat-icon {
+    position: absolute;
+    right: 21px;
+    cursor: pointer;
+    top: 22px;
+  }
+  .dialog-title {
+    padding: 0;
+  }
+  .dialog-content {
+    padding: 0;
+
+    form {
+      mat-form-field {
+        display: flex;
+      }
+    }
+  }
+  .actions {
+    padding: 0;
+    .btn {
+      background: #c7c7c7;
+      color: black;
+      padding: 1.3rem 1.5rem;
+      border-radius: 0.4em;
+    }
+  }
+}
